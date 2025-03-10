@@ -11,5 +11,4 @@ bot = Bot(token=getenv("bot_token"))
 dp = Dispatcher()
 dp.include_router(client_router)
 
-
 dp.run_polling(bot)
